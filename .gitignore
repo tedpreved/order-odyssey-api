@@ -1,0 +1,58 @@
+# STS (Spring Tool Suite) #
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA #
+.idea
+*.iws
+*.iml
+*.ipr
+
+# NetBeans #
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code #
+.vscode/
+
+# Gradle #
+.gradle
+build/
+gradle.properties
+!gradle/wrapper/gradle-wrapper.jar
+
+# Compiled and executable files #
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.out
+*.pid
+*~ # for temporary files ending with ~
+**/tmp/**
+**/temp/**
+
+# Operating System specific #
+.DS_Store
+Thumbs.db
+
+# Environment Configuration (contains sensitive info) #
+application.properties
+application.yml
+# Add a template file instead #
+!application.properties.example
+!application.yml.example
+
+# Other #
+HELP.md
+bin/
+out/
